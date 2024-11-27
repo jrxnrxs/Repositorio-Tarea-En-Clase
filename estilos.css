@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;  /* Color de fondo claro */
+    color: #333;  /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #2E8B57;  /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para los enlaces */
+nav ul li a:hover {
+    background-color: #4CAF50;  /* Verde más claro */
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h1 {
+    color: #2E8B57;  /* Verde oscuro para los títulos */
+}
+
+/* Fondo de las secciones */
+section#inicio {
+    background-color: #ffffff;
+}
+
+section#sobre-nosotros {
+    background-color: #f9f9f9;  /* Gris claro */
+}
+
+section#contacto {
+    background-color: #ffffff;
+}
